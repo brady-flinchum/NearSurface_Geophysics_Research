@@ -16,6 +16,7 @@ doi: https://doi.org/10.1016/j.jappgeo.2026.106226
 ⁴ Bartlett Tree Experts
 
 *Journal of Applied Geophysics*, 2026
+
 Link: https://doi.org/10.1016/j.jappgeo.2026.106226
 
 ---
