@@ -1,0 +1,13 @@
+sphinx>=7.0
+pydata-sphinx-theme>=0.15
+myst-parser>=2.0            # write pages in Markdown instead of RST
+nbsphinx>=0.9               # execute and embed Jupyter notebooks
+sphinx-copybutton           # copy button on code blocks
+sphinxcontrib-bibtex>=2.6   # .bib citations
+sphinx-design               # cards, grids, tabs
+ipykernel                   # kernel for nbsphinx
+jupyter_sphinx              # inline code execution
+pyvista[jupyter]>=0.43      # your 3D viz
+trame                       # pyvista interactive backend
+ipywidgets                  # widget support
+nbconvert                   # notebook conversion

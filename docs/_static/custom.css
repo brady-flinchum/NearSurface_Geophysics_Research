@@ -1,0 +1,17 @@
+/* Widen the content area slightly */
+.bd-content .bd-article-container {
+    max-width: 900px;
+}
+
+body {
+    font-size: 16px;
+}
+
+div.highlight pre {
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+
+.nbsphinx-output-area {
+    margin: 1em 0;
+}
