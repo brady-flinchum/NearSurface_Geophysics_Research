@@ -20,6 +20,8 @@ extensions = [
     'sphinx_copybutton',
     'sphinx_design',
     'jupyter_sphinx',
+    'pyvista.ext.plot_directive',   # ← add this
+    'pyvista.ext.viewer_directive', # ← add this
 ]
 
 # -- File types ----------------------------------------------------------------
