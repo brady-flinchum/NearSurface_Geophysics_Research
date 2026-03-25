@@ -3,9 +3,9 @@ import os, sys
 sys.path.insert(0, os.path.abspath('..'))
 
 # -- Project information -------------------------------------------------------
-project   = 'Your Name – Research'
-copyright = '2024, Your Name'
-author    = 'Your Name'
+project   = 'Brady Flinchum – Research'
+copyright = '2026, Brady Flinchum'
+author    = 'Brady Flinchum'
 release   = '1.0'
 
 # -- Extensions ----------------------------------------------------------------
@@ -55,7 +55,7 @@ bibtex_default_style = 'unsrt'
 html_theme = 'pydata_sphinx_theme'
 
 html_theme_options = {
-    'github_url':        'https://github.com/YOUR_USERNAME/YOUR_REPO',
+    'github_url':        'https://github.com/brady-flinchum/NearSurface_Geophysics_Research',
     'navbar_center':     ['navbar-nav'],
     'navbar_end':        ['navbar-icon-links'],
     'footer_start':      ['copyright'],
@@ -71,7 +71,7 @@ html_sidebars = {
     '**': ['sidebar-nav-bs'],
 }
 
-html_title       = 'Your Name – Research'
+html_title       = 'Brady Flinchum – Near Surface Geophysical Research'
 html_static_path = ['_static']
 html_css_files   = ['custom.css']
 
