@@ -86,3 +86,4 @@ mathjax3_config = {
 
 # -- Exclude patterns ----------------------------------------------------------
 exclude_patterns = ['_build', '**.ipynb_checkpoints', 'Thumbs.db', '.DS_Store']
+numfig = True
