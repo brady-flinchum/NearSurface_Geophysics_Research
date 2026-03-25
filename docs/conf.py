@@ -62,7 +62,7 @@ html_theme_options = {
     'secondary_sidebar_items': ['page-toc', 'sourcelink'],
     'show_toc_level':    2,
     'logo': {
-        'text': 'Your Name',
+        'text': 'Brady Flinchum',
     },
     'navigation_with_keys': True,
 }
