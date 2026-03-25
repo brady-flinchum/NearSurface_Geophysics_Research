@@ -15,7 +15,8 @@ doi: https://doi.org/10.1016/j.jappgeo.2026.106226
 ³ South Carolina Botanical Garden, Clemson University 
 ⁴ Bartlett Tree Experts
 
-*Journal of Applied Geophysics*, 2025
+*Journal of Applied Geophysics*, 2026
+Link: https://doi.org/10.1016/j.jappgeo.2026.106226
 
 ---
 
