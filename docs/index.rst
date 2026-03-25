@@ -5,7 +5,6 @@ Brady Flinchum
    :hidden:
    :maxdepth: 2
 
-   about
    papers/index
    code/index
 
