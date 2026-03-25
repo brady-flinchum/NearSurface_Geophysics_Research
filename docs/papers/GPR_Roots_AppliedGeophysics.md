@@ -17,12 +17,13 @@ doi: https://doi.org/10.1016/j.jappgeo.2026.106226
 
 *Journal of Applied Geophysics*, 2026
 
-Link: https://doi.org/10.1016/j.jappgeo.2026.106226
+Link: [https://doi.org/10.1016/j.jappgeo.2026.106226](https://doi.org/10.1016/j.jappgeo.2026.106226)
 
 ---
 
-graphicalabstract
-Roots are critical to tree health and structural stability, yet their complex geometry covered by the soil makes them difficult to characterize. Ground-penetrating radar (GPR) is a nondestructive geophysical method capable of imaging coarse woody roots, but transforming raw GPR data into spatially coherent root maps remains challenging. This study presents 3.6 km of GPR data collected around a mature swamp oak (*Quercus palustris*) with a diameter at breast height of 1.1 m, located in the South Carolina Botanical Gardens, USA. A total of 1170 profiles were acquired at 15 cm spacing using a 500 MHz antenna and a novel angular grid geometry that maintained perpendicular orientation to radially extending roots. A multi-stage processing workflow that consisted of velocity analysis, migration, and site-specific depth-normalization was used to characterize the root system architecture. The resulting dendritic network exhibited visible asymmetry, with higher root density on the upslope side of the trunk. Roots initiated near the trunk at depths of 30--60 cm and became shallower (10--20 cm) near the canopy edge, over 10 m away. The GPR data were used to guide an airspade excavation, which confirmed the location of coarse roots predicted by the survey. These results demonstrate that high-density GPR data, when paired with optimized acquisition and processing, can resolve spatially continuous root networks and support non-invasive root system characterization.\
+# Abstract
+
+Roots are critical to tree health and structural stability, yet their complex geometry covered by the soil makes them difficult to characterize. Ground-penetrating radar (GPR) is a nondestructive geophysical method capable of imaging coarse woody roots, but transforming raw GPR data into spatially coherent root maps remains challenging. This study presents 3.6 km of GPR data collected around a mature swamp oak (*Quercus palustris*) with a diameter at breast height of 1.1 m, located in the South Carolina Botanical Gardens, USA. A total of 1170 profiles were acquired at 15 cm spacing using a 500 MHz antenna and a novel angular grid geometry that maintained perpendicular orientation to radially extending roots. A multi-stage processing workflow that consisted of velocity analysis, migration, and site-specific depth-normalization was used to characterize the root system architecture. The resulting dendritic network exhibited visible asymmetry, with higher root density on the upslope side of the trunk. Roots initiated near the trunk at depths of 30--60 cm and became shallower (10--20 cm) near the canopy edge, over 10 m away. The GPR data were used to guide an airspade excavation, which confirmed the location of coarse roots predicted by the survey. These results demonstrate that high-density GPR data, when paired with optimized acquisition and processing, can resolve spatially continuous root networks and support non-invasive root system characterization.
 
 
 # Introduction
