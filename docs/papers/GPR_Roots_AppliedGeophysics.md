@@ -258,3 +258,11 @@ The results demonstrated that high-amplitude anomalies, when spatially aligned a
 # Acknowledgments
 
 This research was supported by startup funding from Clemson University. We gratefully acknowledge Bartlett Tree Experts for their logistical support and interest in advancing tree root imaging technologies. We thank William Cummings, Annalee Chiaviello, and Rachel Uecker for their invaluable assistance with data acquisition and fieldwork. This study builds upon the foundational work of Megan Lapkoff, whose M.S. thesis Ground-Penetrating Radar Imaging of Tree Root Architecture laid the groundwork for our angular grid acquisition approach. Although her work could not be published due to limitations in full-tree scanning and ground-truthing, it was instrumental in shaping the design and methodology of this project. We also acknowledge Dr. Nadarajah Ravichandran and Clemson University for early conversations---initiated over five years ago---that inspired the use of ground-penetrating radar to image tree roots. His insights helped catalyze the conceptual development of this research. During the preparation of this work Brady A. Flinchum used Microsoft Co-Pilot (Enterprise Protected) to help smooth langauge. After using this tool/service, the authors have reviewed and edited the content as needed and take full responsibility for the content of the published article.
+
+
+## References
+
+```{bibliography}
+:filter: docname in docnames
+:style: unsrt
+```
