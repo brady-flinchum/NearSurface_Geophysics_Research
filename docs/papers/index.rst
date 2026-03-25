@@ -5,6 +5,6 @@ Papers
    :maxdepth: 1
    :glob:
 
-   *
+   GPR_Roots_AppliedGeophysics.md
 
 Browse published work, preprints, and technical notes below.
