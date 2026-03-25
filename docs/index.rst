@@ -1,7 +1,8 @@
 Brady Flinchum
-=========
+==============
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
 
    about
