@@ -3,7 +3,7 @@ Brady Flinchum
 
 .. toctree::
    :hidden:
-   :maxdepth: 2
+   :maxdepth: 1
 
    papers/index
    code/index
