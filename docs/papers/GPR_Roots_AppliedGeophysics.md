@@ -72,7 +72,7 @@ Excavations of mature blue oak (*Quercus douglasii*) indicate that most coarse-r
 ````
 
 ````{toggle}
-**Code: ProcessingMethods.py ** — Supporting class imported at the top of the previous script.
+**Code: ProcessingMethods.py** — Supporting class imported at the top of the previous script.
 
 ```{literalinclude} code/GPR_Roots_2026/ProcessingMethods.py
 :language: python
@@ -124,43 +124,6 @@ Diagram of the GPR processing workflow, divided into two main steps (light blue 
 GPR processing parameters described in Figure {numref}`fig-ProcessingFlow`.
 ```
 
-````{toggle}
-**Code: Result_Figures.py** — This script contains the full processing workflow and produces the majority of the figures for the paper. All data paths are local to the data repository available for download on Zenodo. This script represents only a subset of the code used to generate this figure; the full workflow is expanded below.
-
-```{literalinclude} code/GPR_Roots_2026/Result_Figures.py
-:language: python
-:lines: 104-295
-:linenos:
-```
-````
-
-````{toggle}
-**Code: Result_Figures.py** — The full version of the processing script used to produce the remaining figures in the paper.
-
-```{literalinclude} code/GPR_Roots_2026/Result_Figures.py
-:language: python
-:linenos:
-```
-````
-
-````{toggle}
-**Code: GPRClass.py** — Supporting class imported at the top of previous script
-
-```{literalinclude} code/GPR_Roots_2026/GPRClass.py
-:language: python
-:linenos:
-```
-````
-
-````{toggle}
-**Code: ProcessingMethods.py ** — Supporting class imported at the top of the previous script.
-
-```{literalinclude} code/GPR_Roots_2026/ProcessingMethods.py
-:language: python
-:linenos:
-```
-````
-
 
 
 
@@ -183,7 +146,7 @@ Results from the detailed diffraction hyperbola velocity analysis. (a) Spatial d
 ```
 
 ````{toggle}
-**Code: Fig04_Velocity_Results.py — Script used to generate the plots for this figure. Labels and profile concatenation were completed in Illustrator. Diffraction picking was performed using a separate script; both the picks and associated files are available in the Zenodo repository.
+**Code: Fig04_Velocity_Results.py** — Script used to generate the plots for this figure. Labels and profile concatenation were completed in Illustrator. Diffraction picking was performed using a separate script; both the picks and associated files are available in the Zenodo repository.
 
 ```{literalinclude} code/GPR_Roots_2026/Fig04_Velocity_Results.py
 :language: python
@@ -192,7 +155,7 @@ Results from the detailed diffraction hyperbola velocity analysis. (a) Spatial d
 ````
 
 ````{toggle}
-**Code: ProcessingMethods.py ** — Supporting methods for generating the velocity plot scripts.
+**Code: ProcessingMethods.py** — Supporting methods for generating the velocity plot scripts.
 
 ```{literalinclude} code/GPR_Roots_2026/ProcessingMethods.py
 :language: python
@@ -227,6 +190,43 @@ The continuity observed in depth sections and spatial slices was not produced by
 (a) Mean amplitude envelopes from all profiles collected on each survey day. Colors correspond to sections shown in Figure {numref}`fig-map`: blue (1--4), orange (5--8), purple (9--12), and red (13--15). (b) Unmigrated, gain-adjusted circular profile constructed by concatenating profiles from all sections. Amplitudes are normalized by the depth-dependent mean from panel a; color scale indicates relative amplitude. The profile is shown with 3× vertical exaggeration. (c) Three normalized amplitude traces extracted from the migrated section, corresponding to colored lines in panel d. (d) Migrated version of panel b, showing collapsed diffraction hyperbolae as bright anomalies. This represents the second step in the processing workflow (Figure {numref}`fig-ProcessingFlow`). (e) Three normalized envelope traces from the migrated section, corresponding to colored lines in panel f. (f) Envelope of panel d, with colormap scaled to highlight deviations from the depth-dependent mean in panel a. Blue indicates below-average amplitudes; red indicates above-average. (g) Three squared, normalized envelope traces from the migrated section, corresponding to colored lines in panel f. Squaring sharpens and emphasizes positive anomalies. (h) Squared, normalized envelope from panel f. Color scale reflects amplitude relative to the depth-specific mean; e.g., a value of 9 indicates an anomaly 3× greater than the mean ($\sqrt{9} = 3$). This scale is used throughout the remainder of the paper.
 ```
 
+````{toggle}
+**Code: Result_Figures.py** — This script contains the full processing workflow and produces the majority of the figures for the paper. All data paths are local to the data repository available for download on Zenodo. This script represents only a subset of the code used to generate this figure; the full workflow is expanded below.
+
+```{literalinclude} code/GPR_Roots_2026/Result_Figures.py
+:language: python
+:lines: 104-295
+:linenos:
+```
+````
+
+````{toggle}
+**Code: Result_Figures.py** — The full version of the processing script used to produce the remaining figures in the paper.
+
+```{literalinclude} code/GPR_Roots_2026/Result_Figures.py
+:language: python
+:linenos:
+```
+````
+
+````{toggle}
+**Code: GPRClass.py** — Supporting class imported at the top of previous script
+
+```{literalinclude} code/GPR_Roots_2026/GPRClass.py
+:language: python
+:linenos:
+```
+````
+
+````{toggle}
+**Code: ProcessingMethods.py** — Supporting class imported at the top of the previous script.
+
+```{literalinclude} code/GPR_Roots_2026/ProcessingMethods.py
+:language: python
+:linenos:
+```
+````
+
 ## Cross-Sections
 
 Due to the high volume of data (1170 profiles), three circular and radial profiles were used to describe general observations (Figure {numref}`fig-MigratedSections`). Circular profiles were constructed by concatenating lines from the 15 angular grids collected at different distances from the tree and are shown in Figure {numref}`fig-map`. The continuity was maintained along these circular profiles because of the careful field acquisition and day-specific amplitude normalization. The profiles we show have also been shifted to account for topography from the high‑resolution DEM (Figure {numref}`fig-MigratedSections`).
@@ -239,6 +239,13 @@ Circular profiles (Figure {numref}`fig-MigratedSections`d--f) showed limited co
 :name: fig-MigratedSections
 
 Processed GPR sections shown with 5× vertical exaggeration. Panels a--c are radial cross-sections at 97°, 238°, and 303°, respectively; panels d--f are circular cross-sections at radial distances of 4.5, 6.5, and 9.5 m. Circular profiles are plotted as a function of distance, with vertical dashed lines indicating intersections with corresponding radial profiles. In panels a--c, distance increases outward from the tree center (0 m). All profiles correspond to locations shown in Figure {numref}`fig-map`. Zip files containing images of radial sections in 1° increments and circular sections in 15 cm increments, plotted both as azimuth and distance, are provided in the supplemental material.
+```
+
+### FIGURES WITH MOTION
+```{figure} figures/radial_angles_small.gif
+:name: fig-radial-gif
+
+This is originally how I would have liked to present the figure in the paper. Here, the radial cross-sections are shown, where Figure {numref}fig-MigratedSections a, b, and c represent just three of the sections from this conceptual cartoon. The radial direction advances in 1‑degree increments, as shown on the map on the right. The colour scale and vertical exaggeration are the same as those used in Figure {numref}fig-MigratedSections. 
 ```
 
 ## Depth Sections
