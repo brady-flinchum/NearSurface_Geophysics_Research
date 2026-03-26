@@ -52,7 +52,6 @@ Test of my data
 
     p.add_points(pts1,
               scalars="avgAmp",
-              style="points_gaussian",
               point_size=cfg["point_size"],
               cmap=cfg["cmap_points"],
               clim=[vMin, vMax],
@@ -61,7 +60,6 @@ Test of my data
 
     p.add_points(pts2,
               scalars="avgAmp",
-              style="points_gaussian",
               point_size=cfg["point_size"],
               cmap=cfg["cmap_points"],
               clim=[vMin, vMax],
