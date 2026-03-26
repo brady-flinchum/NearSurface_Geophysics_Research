@@ -2,7 +2,7 @@ Papers
 ======
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 1
 
    GPR_Roots_AppliedGeophysics.md
 
