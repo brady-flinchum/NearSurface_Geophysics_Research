@@ -336,73 +336,28 @@ Images from the airspade excavation guided by the GPR data shown in Figure {num
 Multiple perspectives from the GPR data volume used to guide airspade excavation. Locations A, B, and C correspond to those shown in Figure {numref}`fig-airspadeImages`a. (a) A 3D perspective view illustrating the complexity of the root network beneath the airspade transect. (b) An alternate perspective view, similar to Figure {numref}`fig-airspade_gpr_validate`a. (c) A 2D cross-section beneath the airspade transect, with locations A, B, and C plotted. The thickened segments of the dashed line represent estimated root diameters. Depths were not recorded and are manually placed on strong reflectors. (d) A depth section from 0 to 45 cm, with points A, B, and C plotted on the map.
 ```
 
-#Interactive Version of Manuscript Figure 11
+Basic mesh with scalar field
+-----------------------------
 
 .. pyvista-plot::
-    :caption: Interactive version of Figure 11a and 11b from the main manuscript.
-    :include-source: True
-    
-    import pyvista as pv
-    import numpy as np
-    import yaml
+   :caption: A sphere coloured by distance from an offset point.
+   :include-source: True
 
-    # Load data
-    elvGrid = pv.read("code/gitHubPlotFiles/elvGrid.vtk")
-    pts1 = pv.read("code/gitHubPlotFiles/xyzPoints.vtk")
-    pts2 = pv.read("code/gitHubPlotFiles/xyzPoints2.vtk")
-    validate = pv.read("code/gitHubPlotFiles/validate_points.vtk")
+   import pyvista as pv
+   import numpy as np
 
-    npz = np.load(code/gitHubPlotFiles/"plot_data.npz")
-    avgAmp = npz["avgAmp"]
-    avgAmp2 = npz["avgAmp2"]
-    vMin = npz["vMin"]
-    vMax = npz["vMax"]
-    VE   = npz["VE"]
+   mesh = pv.Sphere(radius=1.0, theta_resolution=60, phi_resolution=60)
 
-    with open("plot_config.yml") as f:
-        cfg = yaml.safe_load(f)
+   center = np.array([0.5, 0.5, 0.5])
+   distances = np.linalg.norm(mesh.points - center, axis=1)
+   mesh['distance'] = distances
 
-    pts1["avgAmp"] = avgAmp
-    pts2["avgAmp"] = avgAmp2
-
-    # Plot
-    p = pv.Plotter()
-    p.set_background("white")
-
-    p.add_mesh(elvGrid,
-               opacity=cfg["opacity_elv"],
-               cmap="gray",
-               clim=[0, 2],
-               show_scalar_bar=False)
-
-    p.add_points(pts1,
-                 scalars="avgAmp",
-                 style="points_gaussian",
-                 point_size=cfg["point_size"],
-                 cmap=cfg["cmap_points"],
-                 clim=[vMin, vMax],
-                 opacity="sigmoid",
-                 lighting=False)
-
-    p.add_points(pts2,
-                 scalars="avgAmp",
-                 style="points_gaussian",
-                 point_size=cfg["point_size"],
-                 cmap=cfg["cmap_points"],
-                 clim=[vMin, vMax],
-                 opacity="sigmoid",
-                 lighting=False)
-
-    p.add_points(validate,
-                 color="red",
-                 point_size=10,
-                 render_points_as_spheres=True)
-
-    p.camera_position = cfg["camera_position"]
-    p.set_scale(zscale=VE)
-
-    p.show()
-
+   pl = pv.Plotter()
+   pl.add_mesh(mesh, scalars='distance', cmap='viridis',
+               show_scalar_bar=True, scalar_bar_args={'title': 'Distance'})
+   pl.add_axes()
+   pl.show()
+   
 ## Root Distribution and Probability Maps
 
 The unique volume of data and structural insights from the non-invasive dataset were used to estimate the probability of encountering a root. For this analysis, a root was assumed to be indicated by an amplitude threshold of 6, corresponding to anomalies approximately 2.5 times greater than the average amplitude at any given depth. These anomalies appeared as light purples, browns, and blacks in the colormaps used to display the data (see Figure {numref}`fig-MigratedSections`). Because only one root was validated through excavation, this section is presented as a potential application of the methodology, with the understanding that further ground-truthing is required.
