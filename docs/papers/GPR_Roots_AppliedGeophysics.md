@@ -241,23 +241,23 @@ Circular profiles (Figure {numref}`fig-MigratedSections`d--f) showed limited co
 Processed GPR sections shown with 5× vertical exaggeration. Panels a--c are radial cross-sections at 97°, 238°, and 303°, respectively; panels d--f are circular cross-sections at radial distances of 4.5, 6.5, and 9.5 m. Circular profiles are plotted as a function of distance, with vertical dashed lines indicating intersections with corresponding radial profiles. In panels a--c, distance increases outward from the tree center (0 m). All profiles correspond to locations shown in Figure {numref}`fig-map`. Zip files containing images of radial sections in 1° increments and circular sections in 15 cm increments, plotted both as azimuth and distance, are provided in the supplemental material.
 ```
 
-### FIGURES WITH MOTION
+### Manuscript Figure 8 with Motion
 ```{figure} figures/radial_angles_small.gif
 :name: fig-radial-gif
 
-This is originally how I would have liked to present the figure in the paper. Here, the radial cross-sections are shown, where Figure {numref}fig-MigratedSections a, b, and c represent just three of the sections from this conceptual cartoon. The radial direction advances in 1‑degree increments, as shown on the map on the right. The colour scale and vertical exaggeration are the same as those used in Figure {numref}fig-MigratedSections. 
+This is originally how I would have liked to present the figure in the paper. Here, the radial cross-sections are shown, where Figure {numref}`fig-MigratedSections` a, b, and c represent just three of the sections from this conceptual cartoon. The radial direction advances in 1‑degree increments, as shown on the map on the right. The colour scale and vertical exaggeration are the same as those used in Figure {numref}fig-MigratedSections. 
 ```
 
 ```{figure} figures/circumference_distance_small.gif
 :name: fig-circum-dist-gif
 
-This is originally how I would have liked to present the figure in the paper. Here, cross‑sections are shown along circumferences with different radii. This presentation is analogous to Figure {numref}fig-MigratedSections d, e, and f, which represent single snapshots from this sequence. The radii increase in 10 cm increments, matching the line spacing. The path of each section is shown on the map. The colour scale and vertical exaggeration are the same as those used in Figure {numref}fig-MigratedSections. However, because the distance along the circumference increases with radius, the vertical exaggeration appears to change, even though it is constant.
+This is originally how I would have liked to present the figure in the paper. Here, cross‑sections are shown along circumferences with different radii. This presentation is analogous to Figure {numref}`fig-MigratedSections` d, e, and f, which represent single snapshots from this sequence. The radii increase in 10 cm increments, matching the line spacing. The path of each section is shown on the map. The colour scale and vertical exaggeration are the same as those used in Figure {numref}fig-MigratedSections. However, because the distance along the circumference increases with radius, the vertical exaggeration appears to change, even though it is constant.
 ```
 
 ```{figure} figures/circumference_angle_small.gif
 :name: fig-circum-angle-gif
 
-This is originally how I would have liked to present the figure in the paper. Here, cross‑sections are shown along circumferences with different radii. This presentation is analogous to Figure {numref}fig-MigratedSections d, e, and f, which represent single snapshots from this sequence. The radii increase in 10 cm increments, matching the line spacing. The path of each section is shown on the map. The colour scale and vertical exaggeration are the same as those used in Figure {numref}fig-MigratedSections. The difference here is that the x-axis is azimuth (e.g. angle) so you can better see how some of the features line.
+This is originally how I would have liked to present the figure in the paper. Here, cross‑sections are shown along circumferences with different radii. This presentation is analogous to Figure {numref}`fig-MigratedSections` d, e, and f, which represent single snapshots from this sequence. The radii increase in 10 cm increments, matching the line spacing. The path of each section is shown on the map. The colour scale and vertical exaggeration are the same as those used in Figure {numref}fig-MigratedSections. The difference here is that the x-axis is azimuth (e.g. angle) so you can better see how some of the features line.
 ```
 
 ## Depth Sections
