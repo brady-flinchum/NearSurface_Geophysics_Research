@@ -124,6 +124,46 @@ Diagram of the GPR processing workflow, divided into two main steps (light blue 
 GPR processing parameters described in Figure {numref}`fig-ProcessingFlow`.
 ```
 
+````{toggle}
+**Code: Result_Figures.py** — This script contains the full processing workflow and produces the majority of the figures for the paper. All data paths are local to the data repository available for download on Zenodo. This script represents only a subset of the code used to generate this figure; the full workflow is expanded below.
+
+```{literalinclude} code/GPR_Roots_2026/Result_Figures.py
+:language: python
+:lines: 104-295
+:linenos:
+```
+````
+
+````{toggle}
+**Code: Result_Figures.py** — The full version of the processing script used to produce the remaining figures in the paper.
+
+```{literalinclude} code/GPR_Roots_2026/Result_Figures.py
+:language: python
+:linenos:
+```
+````
+
+````{toggle}
+**Code: GPRClass.py** — Supporting class imported at the top of previous script
+
+```{literalinclude} code/GPR_Roots_2026/GPRClass.py
+:language: python
+:linenos:
+```
+````
+
+````{toggle}
+**Code: ProcessingMethods.py ** — Supporting class imported at the top of the previous script.
+
+```{literalinclude} code/GPR_Roots_2026/ProcessingMethods.py
+:language: python
+:linenos:
+```
+````
+
+
+
+
 # Results
 
 ## Velocity Results
