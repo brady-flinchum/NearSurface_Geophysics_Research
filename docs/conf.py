@@ -19,6 +19,7 @@ extensions = [
     'sphinxcontrib.bibtex',     # citations from .bib
     'sphinx_copybutton',
     'sphinx_design',
+    'sphinx_togglebutton'
     'jupyter_sphinx',
     'pyvista.ext.plot_directive',   # ← add this
     'pyvista.ext.viewer_directive', # ← add this
