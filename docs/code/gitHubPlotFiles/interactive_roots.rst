@@ -19,9 +19,10 @@ Test of my data
     import pyvista as pv
     import numpy as np
     import yaml
+    import os
     
     from pathlib import Path
-    _dir = Path(__file__).parent
+    _dir = Path(os.environ.get("GITHUB_WORKSPACE", "")) / "docs/code/gitHubPlotFiles"
 
     elvGrid  = pv.read(_dir / "elvGrid.vtk")
     pts1     = pv.read(_dir / "xyzPoints.vtk")
