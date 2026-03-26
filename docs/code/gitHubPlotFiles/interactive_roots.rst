@@ -21,24 +21,15 @@ Test of my data
     import yaml
     
     from pathlib import Path
+    _dir = Path(__file__).parent
 
-    path = Path(__file__).parent + '/'
-
-    # Load data
-    elvGrid = pv.read(path+"elvGrid.vtk")
-    pts1 = pv.read(path+"xyzPoints.vtk")
-    pts2 = pv.read(path+"xyzPoints2.vtk")
-    validate = pv.read(path+"validate_points.vtk")
-
-    npz = np.load(path+"plot_data.npz")
-    avgAmp = npz["avgAmp"]
-    avgAmp2 = npz["avgAmp2"]
-    vMin = npz["vMin"]
-    vMax = npz["vMax"]
-    VE   = npz["VE"]
-
-    with open(path+"plot_config.yml") as f:
-     cfg = yaml.safe_load(f)
+    elvGrid  = pv.read(_dir / "elvGrid.vtk")
+    pts1     = pv.read(_dir / "xyzPoints.vtk")
+    pts2     = pv.read(_dir / "xyzPoints2.vtk")
+    validate = pv.read(_dir / "validate_points.vtk")
+    npz      = np.load(_dir / "plot_data.npz")
+    with open(_dir / "plot_config.yml") as f:
+        cfg = yaml.safe_load(f)
 
     pts1["avgAmp"] = avgAmp
     pts2["avgAmp"] = avgAmp2
