@@ -54,7 +54,7 @@ Excavations of mature blue oak (*Quercus douglasii*) indicate that most coarse-r
 ```
 
 ````{toggle}
-**Code: Fig01_maps.py** — Generation of Maps
+**Code: Fig01_maps.py** — Generation of Maps, final labels and concatenation was done in Illustrator. File strucutre is the same as the data directory found on Zenodo.
 
 ```{literalinclude} code/GPR_Roots_2026/Fig01_maps.py
 :language: python
