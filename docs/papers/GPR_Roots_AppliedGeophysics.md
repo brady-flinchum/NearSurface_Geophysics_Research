@@ -241,11 +241,11 @@ Circular profiles (Figure {numref}`fig-MigratedSections`d--f) showed limited co
 Processed GPR sections shown with 5× vertical exaggeration. Panels a--c are radial cross-sections at 97°, 238°, and 303°, respectively; panels d--f are circular cross-sections at radial distances of 4.5, 6.5, and 9.5 m. Circular profiles are plotted as a function of distance, with vertical dashed lines indicating intersections with corresponding radial profiles. In panels a--c, distance increases outward from the tree center (0 m). All profiles correspond to locations shown in Figure {numref}`fig-map`. Zip files containing images of radial sections in 1° increments and circular sections in 15 cm increments, plotted both as azimuth and distance, are provided in the supplemental material.
 ```
 
-### Manuscript Figure 8 with Motion
+### Manuscript Figure 7 with Motion
 ```{figure} figures/radial_angles_small.gif
 :name: fig-radial-gif
 
-This is originally how I would have liked to present the figure in the paper. Here, the radial cross-sections are shown, where Figure {numref}`fig-MigratedSections` a, b, and c represent just three of the sections from this conceptual cartoon. The radial direction advances in 1‑degree increments, as shown on the map on the right. The colour scale and vertical exaggeration are the same as those used in Figure {numref}fig-MigratedSections. 
+This is originally how I would have liked to present the figure in the paper. Here, the radial cross-sections are shown, where Figure {numref}`fig-MigratedSections` a, b, and c represent just three of the sections from this conceptual cartoon. The radial direction advances in 1‑degree increments, as shown on the map on the right. The colour scale and vertical exaggeration are the same as those used in Figure {numref}`fig-MigratedSections`.
 ```
 
 ```{figure} figures/circumference_distance_small.gif
@@ -275,6 +275,16 @@ Static images did not fully capture the connectivity of these features. Suppleme
 
 Depth sections created by extracting the squared envelope (see Figure {numref}`fig-AmplitudeGain`c,d) from individual profiles. Data are plotted in polar coordinates and overlaid on a hillshade to show tree locations and topography. Radial grid lines indicate 1 m increments. A transparency mask was applied to suppress amplitudes below 30. Panels show depth slices at: (a) 5--25 cm, (b) 25--45 cm, (c) 45--65 cm, and (d) 65--85 cm. All images showing depth sections from 0 to 1.5 m in 1 cm increments were provided as a .zip folder in the supplemental material.
 ```
+
+### Manuscript Figure 8 with Motion
+
+```{figure} figures/depths_small.gif
+:name: fig-depths-gif
+
+This is originally how I would have liked to present the figure in the paper. This is a GIF showing depth sections at different depths. I discuss this in the paper and encourage readers to download the supplemental material, but here you can clearly see how connected the small features are. In this animation, the roots can be seen initiating shallow near the crown and becoming progressively deeper toward the trunk. This behaviour is very difficult to capture using a series of static images, such as the four panels shown in Figure {numref}`fig-DepthSections`.
+```
+
+
 
 ## Exploring the Data Volume
 
