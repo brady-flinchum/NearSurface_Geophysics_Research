@@ -53,6 +53,15 @@ Excavations of mature blue oak (*Quercus douglasii*) indicate that most coarse-r
 (a) Map of the study area showing GPR data collection, tree geometry, and surrounding vegetation. The base layer is a 2 cm-resolution relative elevation model generated via structure-from-motion. The relative elevation is set to the elevation at the base of the trunk. Thin black lines represent individual GPR profiles; thick black lines delineate angular grid boundaries extending approximately 12 m from the trunk. Data were collected over four days: sections 1--4 (day one), 5--8 (day two), 9--12 (day three), and 13--15 (day four). (b) Same as panel a, shown in polar coordinates. Colored points indicate the start of profiles referenced in Figure {numref}`fig-MigratedSections`.
 ```
 
+````{toggle}
+**Code: Fig01_maps.py** — Generation of Maps
+
+```{literalinclude} docs/code/GPR_Roots_Scripts/Fig01_maps.py
+:language: python
+:linenos:
+```
+````
+
 # Methods
 
 GPR is a geophysical technique widely used in urban, archaeological, and geological investigations {cite}`Knight2001,Neal2004,Zajicova2019,Annan2009`. GPR operates by transmitting electromagnetic (EM) waves into the subsurface, where reflections occur at boundaries defined by contrasts in dielectric permittivity. The frequency of the transmitting antenna governs both resolution and penetration depth: higher frequencies yield finer resolution but shallower penetration due to increased signal attenuation per cycle {cite}`Ozdemir2014,Rehman2016`. In addition to antenna frequency, soils with high electrical conductivity reduce the depth of penetration of the signal {cite}`Annan2009`.
