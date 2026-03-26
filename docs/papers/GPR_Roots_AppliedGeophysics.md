@@ -336,11 +336,9 @@ Images from the airspade excavation guided by the GPR data shown in Figure {num
 Multiple perspectives from the GPR data volume used to guide airspade excavation. Locations A, B, and C correspond to those shown in Figure {numref}`fig-airspadeImages`a. (a) A 3D perspective view illustrating the complexity of the root network beneath the airspade transect. (b) An alternate perspective view, similar to Figure {numref}`fig-airspade_gpr_validate`a. (c) A 2D cross-section beneath the airspade transect, with locations A, B, and C plotted. The thickened segments of the dashed line represent estimated root diameters. Depths were not recorded and are manually placed on strong reflectors. (d) A depth section from 0 to 45 cm, with points A, B, and C plotted on the map.
 ```
 
-```
-```{eval-rst}
-.. include:: ../code/gitHubPlotFiles/interactive_roots.rst
-```
-
+````{eval-rst}
+.. include:: ../code/gitHubPlotFiles/GPR_Roots_interactive.rst
+````
 
 ## Root Distribution and Probability Maps
 

@@ -37,7 +37,7 @@ myst_enable_extensions = [
     'colon_fence',      # ::: directives
     'deflist',
     'tasklist',
-    'eval_rst', 
+    'evalrst', 
 ]
 myst_dmath_double_inline = True
 
