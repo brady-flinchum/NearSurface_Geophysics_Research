@@ -340,7 +340,7 @@ Multiple perspectives from the GPR data volume used to guide airspade excavation
 import pyvista as pv
 
 pv.Sphere().plot()
-``
+```
 
 ## Root Distribution and Probability Maps
 
