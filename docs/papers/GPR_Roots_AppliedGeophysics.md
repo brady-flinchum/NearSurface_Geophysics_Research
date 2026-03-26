@@ -7,8 +7,6 @@ doi: https://doi.org/10.1016/j.jappgeo.2026.106226
 ---
 
    
-
-   
 # Mapping Coarse Tree Roots Using GPR with an Angular Grid Acquisition
 
 **Brady A. Flinchum¹, Donald L. Hagan², Martin A. Hamilton³, Paul Mullins⁴**
@@ -110,7 +108,7 @@ GPR data were processed using GPRPy {cite}`Plattner2020`, with additional routin
 
 Velocity estimation was essential for both migration and the time-to-depth conversion. The initial processing flow included standard steps: dewow filtering, mean trace subtraction, amplitude power gain, and band-pass filtering (Table {numref}`tab-gpr_params_short`). We did not apply a static correction prior to picking hyperbolae because the picks were made before construction of the high-resolution DEM and many profiles were short (the longest profile was approximately 6 m), so the elevation change across them was negligible.
 
-Each GPR profile was trace-normalized to emphasize diffraction hyperbolae prior to picking them. Hyperbola geometry was analyzed in these processed common-offset profiles {cite}`StClair2017,Dou2017,Dossi2024`, where the shape and apex location are governed by $V_{RMS}$ and object depth {cite}`Neal2004}. A Python-based GUI was used to rapidly pick and fit hyperbolae across the dataset. The large number of picks enabled robust estimation of an average $V_{RMS}$, which was then used for migration. Details about the velocity-picking tool are provided in the Supplemental Material.
+Each GPR profile was trace-normalized to emphasize diffraction hyperbolae prior to picking them. Hyperbola geometry was analyzed in these processed common-offset profiles {cite}`StClair2017,Dou2017,Dossi2024`, where the shape and apex location are governed by $V_{RMS}$ and object depth {cite}`Neal2004`. A Python-based GUI was used to rapidly pick and fit hyperbolae across the dataset. The large number of picks enabled robust estimation of an average $V_{RMS}$, which was then used for migration. Details about the velocity-picking tool are provided in the Supplemental Material.
 
 The visualization workflow was based on two assumptions. First, roots would appear as high-amplitude anomalies created by the collapse of diffraction hyperbolae during migration. This is consistent with prior studies showing roots as hyperbolic features in unmigrated profiles due to their small diameter and curved geometry {cite}`Butnor2001,Barton2004,Zhu2014`. Second, the roots would appear as high‑amplitude anomalies because the migration re‑focused the scattered energy back to the source, creating small but bright high‑amplitude anomalies relative to the surrounding material.
 
