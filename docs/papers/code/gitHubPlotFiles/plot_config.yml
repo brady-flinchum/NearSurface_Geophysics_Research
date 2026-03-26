@@ -1,0 +1,13 @@
+camera_position:
+- - 12.48
+  - -20.19
+  - 18.02
+- - 6.04
+  - -0.73
+  - 4.25
+- - -0.21
+  - 0.52
+  - 0.83
+cmap_points: cubehelix_r
+opacity_elv: 0.45
+point_size: 2.5
