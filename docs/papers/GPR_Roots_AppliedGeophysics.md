@@ -56,7 +56,7 @@ Excavations of mature blue oak (*Quercus douglasii*) indicate that most coarse-r
 ````{toggle}
 **Code: Fig01_maps.py** — Generation of Maps
 
-```{literalinclude} docs/code/GPR_Roots_Scripts/Fig01_maps.py
+```{literalinclude} code/GPR_Roots_2026/Fig01_maps.py
 :language: python
 :linenos:
 ```
