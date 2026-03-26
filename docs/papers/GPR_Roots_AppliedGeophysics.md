@@ -249,9 +249,15 @@ This is originally how I would have liked to present the figure in the paper. He
 ```
 
 ```{figure} figures/circumference_distance_small.gif
-:name: fig-radial-gif
+:name: fig-circum-dist-gif
 
 This is originally how I would have liked to present the figure in the paper. Here, cross‑sections are shown along circumferences with different radii. This presentation is analogous to Figure {numref}fig-MigratedSections d, e, and f, which represent single snapshots from this sequence. The radii increase in 10 cm increments, matching the line spacing. The path of each section is shown on the map. The colour scale and vertical exaggeration are the same as those used in Figure {numref}fig-MigratedSections. However, because the distance along the circumference increases with radius, the vertical exaggeration appears to change, even though it is constant.
+```
+
+```{figure} figures/circumference_angle_small.gif
+:name: fig-circum-angle-gif
+
+This is originally how I would have liked to present the figure in the paper. Here, cross‑sections are shown along circumferences with different radii. This presentation is analogous to Figure {numref}fig-MigratedSections d, e, and f, which represent single snapshots from this sequence. The radii increase in 10 cm increments, matching the line spacing. The path of each section is shown on the map. The colour scale and vertical exaggeration are the same as those used in Figure {numref}fig-MigratedSections. The difference here is that the x-axis is azimuth (e.g. angle) so you can better see how some of the features line.
 ```
 
 ## Depth Sections
