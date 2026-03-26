@@ -19,7 +19,11 @@ Test of my data
     import pyvista as pv
     import numpy as np
     import yaml
-    path = '/docs/code/gitHubPlotFiles/'
+    
+    from pathlib import Path
+
+    path = Path(__file__).parent + '/'
+
     # Load data
     elvGrid = pv.read(path+"elvGrid.vtk")
     pts1 = pv.read(path+"xyzPoints.vtk")
