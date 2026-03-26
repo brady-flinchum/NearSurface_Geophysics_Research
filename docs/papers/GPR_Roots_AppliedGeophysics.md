@@ -91,18 +91,27 @@ The visualization workflow was based on two assumptions. First, roots would appe
 Diagram of the GPR processing workflow, divided into two main steps (light blue and light gray). Step one involved estimating the average EM velocity across the study area. Each profile was passed through standard preprocessing routines and then analyzed using a Python-based tool for rapid diffraction hyperbola picking based on semblance. Step two applied the estimated $V_{RMS}$ to migrate the data using FK migration. Migrated profiles were then geolocated and visualized.
 ```
 
-```{table} GPR processing parameters described in Figure {numref}`fig-ProcessingFlow`.
+```md
+```{list-table} GPR processing parameters described in Figure {numref}`fig-ProcessingFlow`.
 :name: tab-gpr_params_short
-**Parameter** **Value**
- ---------------------------- ------------
- Dewow 1
- Remove Mean Trace (traces) 150
- Exponent for Power Gain 2
- Hyperbola Width (m) 2.5
- Time Window (ns) 20
- Velocity Range (m/ns) 0.05--0.15
- Migration Velocity (m/ns) 0.105
-```
+:header-rows: 1
+
+* - Parameter
+  - Value
+* - Dewow
+  - 1
+* - Remove Mean Trace (traces)
+  - 150
+* - Exponent for Power Gain
+  - 2
+* - Hyperbola Width (m)
+  - 2.5
+* - Time Window (ns)
+  - 20
+* - Velocity Range (m/ns)
+  - 0.05–0.15
+* - Migration Velocity (m/ns)
+  - 0.105
 
 
 
