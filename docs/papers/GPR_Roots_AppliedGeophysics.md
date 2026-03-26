@@ -4,9 +4,10 @@ authors: Brady A. Flinchum, Donald L. Hagan, Martin A. Hamilton, Paul Mullins
 journal: Journal of Applied Geophysics
 year: 2026
 doi: https://doi.org/10.1016/j.jappgeo.2026.106226
----
 .. toctree::
    :maxdepth: 1
+---
+
    
 
    
