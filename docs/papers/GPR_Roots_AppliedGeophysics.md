@@ -4,6 +4,8 @@ authors: Brady A. Flinchum, Donald L. Hagan, Martin A. Hamilton, Paul Mullins
 journal: Journal of Applied Geophysics
 year: 2026
 doi: https://doi.org/10.1016/j.jappgeo.2026.106226
+.. toctree::
+   :maxdepth: 1
 ---
 
    
@@ -310,7 +312,7 @@ Migrated radial cross-sections revealed continuous structures formed by the alig
 
 From a geophysical perspective, it is remarkable that such a complex and spatially continuous structure emerged from short (no longer than 6 m) profiles. None of the images presented were interpolated. The alignment of high‑amplitude anomalies across independently collected profiles is the primary reason these features were interpreted as roots. Uncertainties remain, particularly because estimates of root depth and diameter depend on the velocity structure. Although we conducted a detailed velocity analysis, which indicated a slight decrease in velocities after a precipitation event, we still applied a single velocity for migration and depth conversion. Incorporating our observed lateral and vertical velocity variations could further improve image quality and reduce uncertainty in depth and dip estimates, but building the velocity model and using non-standard processing software to migrate was beyond the scope of the work here. Here, the diffractions collapsed and produced high-enough quality root maps.
 
-The angular grid was designed so that GPR profiles crossed approximately perpendicular to radially oriented roots. The small line spacing (15 cm) likely reduced orientation bias, consistent with prior work showing that quarter‑wavelength (or finer) spacing minimises aliasing and that a single high‑density, unidirectional survey can outperform two orthogonal but sparser surveys {cite}`Pierpaolo2015,Grasmueck2005}`. The strong spatial coherence of the anomalies therefore supports our choice of single‑velocity migration and dense spacing: the resulting volume images anomalies consistent with a continuous root system rather than isolated natural diffractions (e.g., corestones or other sharp interfaces). The only exception was a feature that appeared man‑made: a pair of linear structures intersecting at right angles between 46 and 65 cm depth, approximately 9 m from the tree at 30° (Figure {numref}`fig-DepthSections`c). Although the trees are not currently irrigated, this may represent a remnant irrigation pipe or buried infrastructure.
+The angular grid was designed so that GPR profiles crossed approximately perpendicular to radially oriented roots. The small line spacing (15 cm) likely reduced orientation bias, consistent with prior work showing that quarter‑wavelength (or finer) spacing minimises aliasing and that a single high‑density, unidirectional survey can outperform two orthogonal but sparser surveys {cite}`Pierpaolo2015,Grasmueck2005`. The strong spatial coherence of the anomalies therefore supports our choice of single‑velocity migration and dense spacing: the resulting volume images anomalies consistent with a continuous root system rather than isolated natural diffractions (e.g., corestones or other sharp interfaces). The only exception was a feature that appeared man‑made: a pair of linear structures intersecting at right angles between 46 and 65 cm depth, approximately 9 m from the tree at 30° (Figure {numref}`fig-DepthSections`c). Although the trees are not currently irrigated, this may represent a remnant irrigation pipe or buried infrastructure.
 
 ## Validation
 
