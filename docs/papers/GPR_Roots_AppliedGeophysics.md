@@ -284,8 +284,6 @@ Depth sections created by extracting the squared envelope (see Figure {numref}`
 This is originally how I would have liked to present the figure in the paper. This is a GIF showing depth sections at different depths. I discuss this in the paper and encourage readers to download the supplemental material, but here you can clearly see how connected the small features are. In this animation, the roots can be seen initiating shallow near the crown and becoming progressively deeper toward the trunk. This behaviour is very difficult to capture using a series of static images, such as the four panels shown in Figure {numref}`fig-DepthSections`.
 ```
 
-
-
 ## Exploring the Data Volume
 
 Cross-sections (Figure {numref}`fig-MigratedSections`) and depth sections (Figure {numref}`fig-DepthSections`) revealed complex spatial patterns. To examine the sensitivity of these structures to small (cm-scale) shifts in path lengths we look in detail at the root centered near 238°. This profile was chosen because the reflector was less prominent than those in the 97° and 303° profiles (Figure {numref}`fig-MigratedSections`b compared to Figures {numref}`fig-MigratedSections`a,c).
