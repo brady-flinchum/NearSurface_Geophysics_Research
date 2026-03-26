@@ -54,9 +54,27 @@ Excavations of mature blue oak (*Quercus douglasii*) indicate that most coarse-r
 ```
 
 ````{toggle}
-**Code: Fig01_maps.py** — Generation of Maps, final labels and concatenation was done in Illustrator. File strucutre is the same as the data directory found on Zenodo.
+**Code: Fig01_maps.py** — Generation of maps, final labelling, and concatenation were completed in Illustrator. The file structure matches the data directory provided on Zenodo.
 
 ```{literalinclude} code/GPR_Roots_2026/Fig01_maps.py
+:language: python
+:linenos:
+```
+````
+
+````{toggle}
+**Code: GPRClass.py** — Supporting class imported at the top of previous script
+
+```{literalinclude} code/GPR_Roots_2026/GPRClass.py
+:language: python
+:linenos:
+```
+````
+
+````{toggle}
+**Code: ProcessingMethods.py ** — Supporting class imported at the top of the previous script.
+
+```{literalinclude} code/GPR_Roots_2026/ProcessingMethods.py
 :language: python
 :linenos:
 ```
@@ -123,6 +141,25 @@ The spatial distribution of picked hyperbolae also indicated signs of structural
 
 Results from the detailed diffraction hyperbola velocity analysis. (a) Spatial distribution of selected diffraction hyperbolae. The velocity is colored by the percent difference from the mean (0.105 m/ns), where cooler colors indicate slower velocities and warmer colors indicate faster velocities. The symbol size corresponds to the depth of the picked hyperbola, where larger circles are from greater depths and smaller circles are shallower. (b) A plot of the velocity and depth from the hyperbola analysis. The depth was calculated using the picked $V_{RMS}$. The colors and sizes of the symbols are consistent with those shown in panel a. (c) Normalized histogram showing the velocity distribution of the picked hyperbolae. The distribution was Gaussian, with a mean and standard error of 0.0105 ± 0.001 m/ns. (d) A normalized distribution showing the depths of the picked hyperbolae.
 ```
+
+````{toggle}
+**Code: Fig04_Velocity_Results.py — Script used to generate the plots for this figure. Labels and profile concatenation were completed in Illustrator. Diffraction picking was performed using a separate script; both the picks and associated files are available in the Zenodo repository.
+
+```{literalinclude} code/GPR_Roots_2026/Fig04_Velocity_Results.py
+:language: python
+:linenos:
+```
+````
+
+````{toggle}
+**Code: ProcessingMethods.py ** — Supporting methods for generating the velocity plot scripts.
+
+```{literalinclude} code/GPR_Roots_2026/ProcessingMethods.py
+:language: python
+:linenos:
+```
+````
+
 
 ```{figure} figures/Fig05_vel_with_azimuth.png
 :name: fig-VelocityAzimuth
