@@ -20,24 +20,22 @@ Test of my data
     import numpy as np
     import yaml
     import os
-    
+
     from pathlib import Path
-    path = Path(os.environ.get("GITHUB_WORKSPACE", "")) / "docs/code/gitHubPlotFiles/"
+    path = Path(os.environ.get("GITHUB_WORKSPACE", "")) / "docs/code/gitHubPlotFiles"
 
-    elvGrid = pv.read(path+"elvGrid.vtk")
-    pts1 = pv.read(path+"xyzPoints.vtk")
-    pts2 = pv.read(path+"xyzPoints2.vtk")
-    validate = pv.read(path+"validate_points.vtk")
-
-    npz = np.load(path+"plot_data.npz")
+    elvGrid  = pv.read(path / "elvGrid.vtk")
+    pts1     = pv.read(path / "xyzPoints.vtk")
+    pts2     = pv.read(path / "xyzPoints2.vtk")
+    validate = pv.read(path / "validate_points.vtk")
+    npz      = np.load(path / "plot_data.npz")
     avgAmp = npz["avgAmp"]
     avgAmp2 = npz["avgAmp2"]
     vMin = npz["vMin"]
     vMax = npz["vMax"]
     VE   = npz["VE"]
-
-    with open(path+"plot_config.yml") as f:
-     cfg = yaml.safe_load(f)
+    with open(path / "plot_config.yml") as f:
+        cfg = yaml.safe_load(f)
 
     pts1["avgAmp"] = avgAmp
     pts2["avgAmp"] = avgAmp2
