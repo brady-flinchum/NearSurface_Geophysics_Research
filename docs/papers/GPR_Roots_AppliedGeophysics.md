@@ -5,7 +5,7 @@ journal: Journal of Applied Geophysics
 year: 2026
 doi: https://doi.org/10.1016/j.jappgeo.2026.106226
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
 ---
 
    
